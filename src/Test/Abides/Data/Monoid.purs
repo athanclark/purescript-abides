@@ -1,5 +1,6 @@
 module Test.Abides.Data.Monoid where
 
+import Prelude (class Eq, class Monoid, (<>), mempty)
 import Test.Abides.Properties (constL, constR)
 
 

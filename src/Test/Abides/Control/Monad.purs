@@ -1,6 +1,7 @@
 module Test.Abides.Control.Monad where
 
-
+import Prelude (class Eq, (==), (>>=), class Monad, pure)
+-- FIXME
 -- import Control.Monad (MonadPlus (mzero, mplus))
 
 

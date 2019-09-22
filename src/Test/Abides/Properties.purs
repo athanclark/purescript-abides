@@ -1,6 +1,9 @@
 module Test.Abides.Properties where
 
 
+import Prelude (class Eq, (==))
+
+
 -- | x == x?
 reflexive :: forall a. Eq a => a -> Boolean
 reflexive x = x == x

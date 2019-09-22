@@ -1,6 +1,7 @@
 module Test.Abides.Control.Alternative where
 
-import Control.Applicative (class Alternative, (<|>), empty)
+import Prelude (class Applicative, (<*>), class Eq, (==))
+import Control.Alternative (class Alternative, (<|>), empty)
 
 
 -- | (f <|> g) <*> x == (f <*> x) <|> (g <|> x)

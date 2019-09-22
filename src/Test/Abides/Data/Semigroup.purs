@@ -1,5 +1,6 @@
 module Test.Abides.Data.Semigroup where
 
+import Prelude (class Eq, class Semigroup, (<>))
 import Test.Abides.Properties (associative) as P
 
 

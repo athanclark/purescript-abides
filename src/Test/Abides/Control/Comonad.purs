@@ -1,5 +1,6 @@
 module Test.Abides.Control.Comonad where
 
+import Prelude (class Eq, (==), (<<<))
 import Control.Comonad (class Comonad, extend, extract, (<<=))
 
 
@@ -12,4 +13,4 @@ rightIdentity f x = extract (f <<= x) == f x
 
 
 associative :: forall w a b c. Comonad w => Eq (w c) => (w b -> c) -> (w a -> b) -> w a -> Boolean
-associative f g x = extend f (extend g x) == extend (f . extend g) x
+associative f g x = extend f (extend g x) == extend (f <<< extend g) x
