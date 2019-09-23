@@ -6,6 +6,11 @@
     "bower_components",
     "output"
   ],
+  "license": "BSD-3-Style",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/athanclark/purescript-abides.git"
+  },
   "dependencies": {
     "purescript-prelude": "^4.1.1",
     "purescript-foldable-traversable": "^4.1.1",
