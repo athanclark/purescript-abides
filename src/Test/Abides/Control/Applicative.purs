@@ -1,8 +1,3 @@
-{-# LANGUAGE
-    RankNTypes
-  , ScopedTypeVariables
-  #-}
-
 module Test.Abides.Control.Applicative where
 
 import Prelude (class Eq, (==), (<<<), pure, identity, (<*>), class Applicative)
