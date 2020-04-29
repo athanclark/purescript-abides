@@ -1,7 +1,7 @@
 module Test.Abides.Data.BoundedEnum where
 
 import Prelude (compare, class Ord, class Eq, (==), (>>=), top, bottom, (<), (>))
-import Data.Enum (class Enum, pred, succ, fromEnum, class BoundedEnum)
+import Data.Enum (pred, succ, fromEnum, class BoundedEnum)
 import Data.Maybe (Maybe (Just))
 
 
